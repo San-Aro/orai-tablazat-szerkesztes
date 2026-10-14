@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyad</title>
+    <style>
+        body
+        {
+            font-family: 'Roboto', sans-serif;
+        }
+        table
+        {
+            padding: 10px;
+            background-color: aliceblue;
+            border: solid 5px rgb(161, 199, 233);
+            border-radius: 10px;
+        }
+        table:nth-child(1)
+        {
+            margin-right: 10px;
+        }
+        td
+        {
+            height: 40px; width: 40px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px #0000005b;
+            background-color: #5a5a5a;
+            color: #fff;
+            transition: .2 ease-in-out;
+            text-align: center;
+        }
+        td:hover
+        {
+            background-color: #4e4e4e;
+            color: #d3d3d3;
+            box-shadow: inset 1px 1px 3px #000000;
+        }
+        .contetn
+        {
+            width: fit-content;
+            p
+            {
+                width: calc(100% - 30px);
+                background-color: aliceblue;
+                border: solid 5px rgb(161, 199, 233);
+                border-radius: 10px;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+        .contetn_body
+        {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="contetn">
+        <p>3. dolgozat</p>
+        <div class="contetn_body">
+            <table>
+                <tr>
+                    <td colspan="10">Keypad</td>
+                </tr>
+                <tr>
+                    <td>Q</td>
+                    <td>W</td>
+                    <td>E</td>
+                    <td>R</td>
+                    <td>T</td>
+                    <td>Z</td>
+                    <td>U</td>
+                    <td>I</td>
+                    <td>O</td>
+                    <td>P</td>
+                </tr>
+                <tr>
+                    <td>A</td>
+                    <td>S</td>
+                    <td>D</td>
+                    <td>F</td>
+                    <td>G</td>
+                    <td>H</td>
+                    <td>J</td>
+                    <td>K</td>
+                    <td>L</td>
+                    <td rowspan="2">&#10004;</td>
+                </tr>
+                <tr>
+                    <td>Y</td>
+                    <td>X</td>
+                    <td>C</td>
+                    <td>V</td>
+                    <td>B</td>
+                    <td>N</td>
+                    <td>M</td>
+                    <td colspan="2">_____</td>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td colspan="2">,</td>
+                    <td>0</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
